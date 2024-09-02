@@ -8,6 +8,15 @@
     <img id="pfp" src="{{ pfp }}"></img>
     <p id="name">{{ name }}</p>
     <p id="aura">AURA: {{ auras }}</p>
-    <p class="auras_given">{{ auras_given }}</p>
+    <div class="aura_given_container">
+        {% for aura_id, aura_data in auras_given.items() %}
+            <div class="aura_given">
+                <h3>{{ aura_data.title }}</h3>
+                <p>User: {{ aura_data.user }}</p>
+                <p>Given Aura: {{ aura_data.aura }}</p>
+                <p>Comment: {{ aura_data.comment }}</p>
+            </div>
+        {% endfor %}
+    </div>
 </div>
 </html>
