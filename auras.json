@@ -1,0 +1,30 @@
+{
+    "test_1": {
+        "name": "Test 1",
+        "pass": "$2b$12$L9kvoI7ZtYYR40meO49cg.xVTZR5mSO.gSBr/ydYg/xMG1bZe185u",
+        "pfp": "default.png",
+        "auras": 50,
+        "auras_given": {
+            "1": {
+                "title": "Title Here Idk",
+                "user": "Test2",
+                "aura": 5,
+                "review": "Wtf am i doing rn"
+            }
+        }
+    },
+    "test_2": {
+        "name": "Test 2",
+        "pass": "$2b$12$L9kvoI7ZtYYR40meO49cg.xVTZR5mSO.gSBr/ydYg/xMG1bZe185u",
+        "pfp": "default.png",
+        "auras": 50,
+        "auras_given": {
+            "1": {
+                "title": "Title Here Idk",
+                "user": "Test1",
+                "aura": 5,
+                "review": "Wtf am i doing rn"
+            }
+        }
+    }
+}

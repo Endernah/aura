@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Aura</title>
+    <link rel="stylesheet" href="static/css/index.css">
+    <script src="static/js/check_screen_size.js"></script>
+</head>
+<body>
+    <div class="container">
+        <a id="AURA", href="/", style="text-decoration: none;">AURA</a>
+        <div class="search">
+            <form action="/search" method="get">
+                <input type="text" id="search-input" name="s" placeholder="🔍 Search a name..." autocomplete="off">
+                <button type="submit">Search</button>
+                <div id="suggestions" class="suggestions"></div>
+            </form>
+        </div>
+    </div>
+    <script src="static/js/index.js"></script>
+</body>
+</html>

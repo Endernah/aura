@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(25, 25, 25);
+}
+
+.aura {
+    text-shadow: 2px 2px rgb(00, 00, 00);
+    -webkit-text-stroke: 1px;
+    color: rgb(0, 153, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font: caption;
+    font-size: 80px;
+    position: fixed; 
+    margin: auto; 
+    inset: 0; 
+    width: fit-content; 
+    height: fit-content;
+    top: -20%;
+}
+
+#not_found {
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font: caption;
+    font-size: 40px;
+    position: fixed; 
+    margin: auto; 
+    inset: 0; 
+    width: fit-content; 
+    height: fit-content;
+    top: 10%;
+}
